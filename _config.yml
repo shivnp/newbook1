@@ -24,7 +24,7 @@ url: https://shivnp.github.io
 baseurl: /newbook1
 repository:
   url: https://github.com/shivnp/newbook1 # Online location of your book
-  path_to_book: roots # Optional path to your book, relative to the repository root
+  path_to_book: root # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
@@ -32,3 +32,5 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  relative_urls: false  # This ensures that links to CSS and JS files are absolute
+
